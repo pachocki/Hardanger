@@ -309,7 +309,7 @@ a:hover{
     position:relative;
     text-align: center;
     color:var(--clr-light);
-    font-size:3rem;
+    font-size:3.2rem;
   
 }
 .header-title:before{
