@@ -349,6 +349,10 @@ a:hover{
     position: relative;
     bottom: 22rem;
 }
+.atractionn-name{
+    padding:0 15px;
+
+}
 
 
 .parallax-container{
@@ -364,9 +368,7 @@ a:hover{
     flex-direction: column;
 }
 
-.atractionn-name{
-    padding:0 15px;
-}
+
 .attractions-paragraph{
     font-size:var(--font-size-sm);
     font-family: var(--font-family-body);
@@ -525,6 +527,11 @@ a:hover{
     }
     .atraction-name{
         text-align:center;
+        text-align: center;
+        font-size: 4rem;
+        margin: 3em 0;
+    }
+    .atractionn-name{
         text-align: center;
         font-size: 4rem;
         margin: 3em 0;
