@@ -38,17 +38,19 @@
   
   /* Track */
   ::-webkit-scrollbar-track {
-    background: var(--color-gray-dark);
+    background:var(--clr-dark);
   }
   
   /* Handle */
   ::-webkit-scrollbar-thumb {
-    background: var(--color-warning);
+    background:var(--clr-accent);
+    height:100px;
+    border-radius:20px;
   }
   
   /* Handle on hover */
   ::-webkit-scrollbar-thumb:hover {
-    background:var(--color-danger);
+    background:goldenrod;
   } 
 /*============Scrollbar End=================*/
 
