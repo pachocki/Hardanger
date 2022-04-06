@@ -364,7 +364,9 @@ a:hover{
     flex-direction: column;
 }
 
-
+.atractionn-name{
+    padding:0 15px;
+}
 .attractions-paragraph{
     font-size:var(--font-size-sm);
     font-family: var(--font-family-body);
@@ -392,6 +394,7 @@ a:hover{
     font-size: 4rem;
     color:#ffffff91;
 }
+
 
 /*==============EVENT SECTION=============*/
 .events-section{
