@@ -393,6 +393,69 @@ a:hover{
     color:#ffffff91;
 }
 
+/*==============EVENT SECTION=============*/
+.events-section{
+    position: relative;
+    bottom: 20em;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+ 
+  .top-card{
+      position:relative;
+  }
+  .date{
+    background:var(--clr-accent);
+    position: absolute;
+    top: -1px;
+    z-index: 10;
+    right: 0;
+    padding: 10px;
+  }
+  .bottom-card h2 , .bottom-card p{
+      color:#0b1d26;
+  }
+  .bottom-card p {
+    font-size: 1.6rem;
+    margin: 10px;
+    text-align: left;
+  }
+ 
+  .swiper-pagination-clickable .swiper-pagination-bullet {
+      background:var(--clr-accent);
+  }
+
+
+
 @media screen and (min-width: 768px ){
 
     .parallax-img{
@@ -487,6 +550,14 @@ a:hover{
     grid-template-columns: 1fr 2fr;
     gap:1em;
     }
+    .bottom-card p {
+        font-size: 1.5rem;
+    }
+    .date h2{
+        font-size:1.4rem;
+        padding:0;
+    }
+    
     
 
 }
