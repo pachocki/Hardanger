@@ -312,7 +312,8 @@ a:hover{
     text-align: center;
     color:var(--clr-light);
     font-size:3.2rem;
-  
+    margin-bottom:2em;
+
 }
 .header-title:before{
     content:"";
@@ -363,6 +364,7 @@ a:hover{
     padding-right:15px;
     padding-left:15px;
     margin:0 auto;
+    padding-bottom:5em;
 
 }
 .parallax-row{
@@ -403,8 +405,11 @@ a:hover{
 /*==============EVENT SECTION=============*/
 .events-section{
     position: relative;
-    bottom: 20em;
+    bottom:14em;
+   
 }
+
+
 .swiper {
     width: 100%;
     height: 100%;
@@ -436,7 +441,10 @@ a:hover{
     height: 100%;
     object-fit: cover;
   }
- 
+ .card img{
+     width:100%;
+     height:250px;
+ }
   .top-card{
       position:relative;
   }
@@ -448,20 +456,37 @@ a:hover{
     right: 0;
     padding: 10px;
   }
+  .bottom-card{
+      width:100%;
+      height:300px;
+      padding: 5px;
+  }
   .bottom-card h2 , .bottom-card p{
       color:#0b1d26;
   }
+
   .bottom-card p {
     font-size: 1.6rem;
-    margin: 10px;
     text-align: left;
+    padding-top:5px;
   }
+  .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
+    display:none;
+}
  
-  .swiper-pagination-clickable .swiper-pagination-bullet {
-      background:var(--clr-accent);
+  
+
+  @media screen and (max-width:640px ){
+      .bottom-card h2{
+          font-size:2.2rem;
+      }
+      .bottom-card p {
+        font-size: 1.8rem;
+        padding: 0 10px;
+      }
+      
+
   }
-
-
 
 @media screen and (min-width: 768px ){
 
@@ -480,6 +505,10 @@ a:hover{
     .atractions-section{
         bottom:38rem;
     }
+    .events-section{
+        bottom:25em;
+    }
+    
 }
 
 @media screen and (min-width:991px){
@@ -562,13 +591,15 @@ a:hover{
     grid-template-columns: 1fr 2fr;
     gap:1em;
     }
-    .bottom-card p {
-        font-size: 1.5rem;
+    .events-section{
+        bottom:20em;
     }
+    
     .date h2{
         font-size:1.4rem;
         padding:0;
     }
+   
     
     
 
