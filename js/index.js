@@ -7,7 +7,7 @@ const manImage = document.getElementById('man');
 const skyImage = document.getElementById('sky');
 const mountainsImage = document.getElementById('mountains');
 const heroData = document.getElementById('hero-data');
-
+const navLink = document.querySelectorAll(".nav-link");
 // Open menu & add overlay
 openMenuIcon.addEventListener('click', ()=>{
     mobileMenu.classList.add("menu-opened");
@@ -17,6 +17,9 @@ openMenuIcon.addEventListener('click', ()=>{
 closeMenuIcon.addEventListener('click', ()=>{
     mobileMenu.classList.remove("menu-opened");
 })
+navLink.forEach(el => el.addEventListener("click", function(e) {
+  mobileMenu.classList.remove("menu-opened");
+}));
 
 //Parallax Effect
 

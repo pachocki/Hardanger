@@ -188,9 +188,14 @@ a:hover{
     height: 50%;
     width: 100%;
 }
+.nav-list{
+    position: relative;
+    top: 20%;
+}
 .nav-link{
     letter-spacing:2px;
     font-size:var(--font-size-lg);
+    transition: 1s ease-in-out;
 }
 .menu-toggle-close{
     position:absolute;
@@ -301,6 +306,22 @@ a:hover{
 .parallax-img-top{
     top:0;
 }
+.arrow {
+    animation: slide1 1s ease-in-out infinite;
+    margin-left: 9px;
+  }
+@keyframes slide1 {
+    0%,
+    100% {
+      transform: translate(0, 0);
+    }
+  
+    50% {
+      transform: translate(0, 10px);
+    }
+  }
+
+/*===========About Section===========*/
 
 .about-section{
     position: relative;
@@ -540,7 +561,7 @@ a:hover{
         bottom:36rem;
     }
     .btn,.nav-link{
-        transition: transform .5s;
+        transition: 0.5s ease-in-out;
     }
     .btn:hover,.nav-link:hover{
         color:var(--clr-accent);
