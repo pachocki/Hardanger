@@ -494,8 +494,64 @@ a:hover{
   .swiper-horizontal>.swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction{
     display:none;
 }
- 
-  
+footer{
+        /* The image used */
+    background-image: url(../images/footer.png);
+     /* Set a specific height */
+    width:100%;
+    height:100vh;
+
+     /* Create the parallax scrolling effect */
+    position:relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    position: absolute;
+    bottom: 5em;
+    align-items: center;
+    text-align: -webkit-center;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.578);
+    border-top: 2px solid rgba(255, 255, 255, 0.578);
+    background: #0b1d26d0;
+}
+.fot-col1{
+    border-right:2px solid rgba(255, 255, 255, 0.578);
+}
+.footer-row p:hover{
+    color:var(--clr-accent);
+}
+.social-media{
+    display: flex;
+    justify-content: space-evenly;
+}
+.social{
+    font-size:1.6em;
+    transition:0.5s ease-in-out;
+} 
+.social:hover{
+    color:var(--clr-accent);
+}
+.footer-row{
+    position: absolute;
+    bottom: 1.6rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    background: #0b1d26d0;
+}
+.footer-row p{
+    font-size:0.75em;
+    transition:0.5s ease-in-out;
+}
+
+.footer-row p:hoover{
+    color: var(--clr-accent);
+}
 
   @media screen and (max-width:640px ){
       .bottom-card h2{
