@@ -10,3 +10,6 @@ Stunning photography of the area
 Parallax effect to make the website more visually appealing
 # Getting started
 To view the website, simply navigate to the deployed link in your browser.
+# Full website image 
+![Website](https://github.com/pachocki/Hardanger/blob/main/images/hardanger-pc.png) 
+![Website](https://github.com/pachocki/Hardanger/blob/main/images/hardanger-mobile.png)
