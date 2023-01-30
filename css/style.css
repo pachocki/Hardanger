@@ -645,7 +645,7 @@ footer{
         margin: 3em 0;
     }
     .about-paragraph , .attractions-paragraph{
-        font-size:1.8rem;
+        font-size:2rem;
         padding-bottom:2em;
         margin:0;
     }
@@ -657,7 +657,7 @@ footer{
         bottom:30rem;
     }
     .attraction-img img{
-        height:100vh;
+        height:70vh;
     }
     .parallax-container{
         padding-right:0;
